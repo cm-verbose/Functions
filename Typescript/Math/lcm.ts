@@ -1,1 +1,1 @@
-let lcm = (x:number, y:number):number => Math.abs(x * y)/gcd(x, y); 
+let lcm = (x:number, y:number):any => Math.abs(x * y)/(y === 0? x: gcd(y, x % y)); 
