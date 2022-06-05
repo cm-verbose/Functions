@@ -1,1 +1,1 @@
-let avg = (val:number[]):number => val.reduce((acc:number, val:number) => acc + val)/val.length;
+let avg = (v:number[]) => v.reduce((a:number, v:number) => a + v)/v.length;
